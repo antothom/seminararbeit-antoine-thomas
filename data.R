@@ -1,5 +1,6 @@
 library(tidyverse)
 library(lubridate)
+library(xtable)
 
 # Data import
 hotel_bb <- read_csv2(file = "B&B_Hotel_München-Hbf.csv")
@@ -96,15 +97,21 @@ hotel_data <- rbind(hotel_bb_clean,
         hotel_relexa_clean) %>%
   mutate(oktoberfest = unlist(map(.x = date, .f = checkOktoberfest)))
 
+# Filtering room rates during the time of the Oktoberfest
 hotel_data_oktoberfest <- filter(hotel_data, oktoberfest == TRUE)
+# Filtering room rates during times not related to the Oktoberfest
 hotel_data_no_oktoberfest <- filter(hotel_data, oktoberfest == FALSE)
+
 
 hotel_data %>%
   group_by(date) %>%
   summarise(price = mean(price)) %>%
   ggplot(aes(x = date, y = price)) +
   geom_line() +
-  geom_smooth()
+  geom_vline(xintercept = date("2023-09-16"), colour = "red", alpha =.3) +
+  geom_vline(xintercept = date("2023-10-03"), colour = "red", alpha = .3) +
+  geom_smooth() +
+  labs(x = "Date", y = "Room Rate")
   
 hotel_data %>%
   ggplot(aes(x = date, y = price)) +
@@ -113,6 +120,46 @@ hotel_data %>%
   geom_vline(xintercept = date("2023-10-03"), colour = "red", alpha = .3) +
   facet_wrap(~name) +
   theme_bw() +
-  labs(x = "Date",y = "Price", title = "Price history for a double bedroom in 10 similar hotels in the center of Munich, Germany (04/23-12/23)")
+  labs(x = "Date",y = "Room Rate", title = "Price history for a double bedroom in 10 similar hotels in the center of Munich, Germany (04/23-12/23)")
 
+# Boxplot showing that during the time not related to the oktoberfest, there are a lot of outliers
+hotel_data_no_oktoberfest %>%
+  ggplot(aes(x = price)) +
+  geom_boxplot(outlier.alpha = .5) +
+  theme_bw() +
+  theme(axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(),
+        plot.title = element_text(face = "bold")) +
+  labs(x = "Room rate", title = "Room rate distribution in times not related to the Oktoberfest 2023")
 
+# Average room rate in Munich during a time with no particularly high demand
+# Removed outliers
+avg_price_no_oktoberfest <- hotel_data_no_oktoberfest %>%
+  filter(price < quantile(hotel_data_no_oktoberfest$price, .75)) %>%
+  pull(price) %>%
+  mean()
+
+# Average room rate in Munich during the time with no particularly high demand
+avg_price_oktoberfest <- hotel_data_oktoberfest %>%
+  pull(price) %>%
+  mean()
+
+## Average values per hotel
+
+avg_room_rates_no_event <- hotel_data_no_oktoberfest %>%
+  filter(price < quantile(hotel_data_no_oktoberfest$price, .75)) %>%
+  group_by(name) %>%
+  summarise(room_rate_no_event = mean(price)) %>%
+  arrange(room_rate_no_event)
+
+avg_room_rates_oktoberfest <- hotel_data_oktoberfest %>%
+  group_by(name) %>%
+  summarise(room_rate_oktoberfest = mean(price))
+
+avg_room_rates_no_event %>%
+  left_join(avg_room_rates_oktoberfest, by = "name") %>%
+  mutate(rel_diff = room_rate_oktoberfest/room_rate_no_event) %>%
+  arrange(rel_diff) %>%
+  xtable()
+  
