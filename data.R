@@ -136,7 +136,7 @@ hotel_data_no_oktoberfest %>%
 # Average room rate in Munich during a time with no particularly high demand
 # Removed outliers
 avg_price_no_oktoberfest <- hotel_data_no_oktoberfest %>%
-  filter(price < quantile(hotel_data_no_oktoberfest$price, .75)) %>%
+  filter(price < quantile(hotel_data_no_oktoberfest$price, .875)) %>%
   pull(price) %>%
   mean()
 
@@ -160,6 +160,16 @@ avg_room_rates_oktoberfest <- hotel_data_oktoberfest %>%
 avg_room_rates_no_event %>%
   left_join(avg_room_rates_oktoberfest, by = "name") %>%
   mutate(rel_diff = room_rate_oktoberfest/room_rate_no_event) %>%
-  arrange(rel_diff) %>%
-  xtable()
+  arrange(rel_diff) #%>%
+
+
+computeAdrOccRel <- function(avg_rate, avg_occ, rel_diff) {
+  new_occupancy <- avg_occ + (rel_diff*lm_occupancy[[2]])
+  tibble(adr = c(avg_rate, avg_rate*(1+rel_diff)),
+         occ = c(avg_occ, new_occupancy)) %>%
+    lm(occ ~ adr, .) %>%
+    .$coefficients
+}
+
+computeAdrOccRel(115.39, 0.76, 0.2)
   
