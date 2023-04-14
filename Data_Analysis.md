@@ -3,15 +3,21 @@ Seminar Work - Data Analysis
 Antoine Thomas
 2023-04-14
 
-## R Markdown
+## Data Analysis
 
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
+### Import of hotel prices lists
 
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
+First, the scraped datasets with price information for selected hotels
+are imported. Then, the data records for all hotels are filtered so that
+they only contain price information for simple double bedrooms. In
+addition, care is taken to ensure that there is a maximum of one entry
+for each hotel each day. Thereby, the cheapest option is always chosen.
+This is primarily due to the fact that more expensive prices usually
+include various additional services, such as free cancellation up to the
+day of the start of the stay or meals such as breakfast. Thus, it can be
+assured that all prices cover a comparable range of services, regardless
+of the hotel. Subsequently, all data of the respective hotels are
+combined into one large data set.
 
 ``` r
 summary(cars)
