@@ -20,22 +20,59 @@ of the hotel. Subsequently, all data of the respective hotels are
 combined into one large data set.
 
 ``` r
-summary(cars)
+# Data import
+hotel_bb <- read_csv2(file = "B&B_Hotel_München-Hbf.csv")
+
+# Filter for double bedrooms and keep the cheapest possible price per day
+hotel_bb_clean <- hotel_bb %>%
+  filter(room == "Doppelzimmer") %>%
+  group_by(date, room) %>%
+  slice(which.min(price))
+
+# Further import process hidden........
 ```
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+``` r
+# binding data of all hotels
+hotel_data <- rbind(hotel_bb_clean,
+        hotel_bold_clean,
+        hotel_brunnenhof_clean,
+        hotel_centro_mondial_clean,
+        hotel_city_center_clean,
+        hotel_demas_clean,
+        hotel_gio_clean,
+        hotel_mirabell_clean,
+        hotel_munchen_city_clean,
+        hotel_relexa_clean)
+```
 
-## Including Plots
+In the dataset `hotel_data` the high demand phase, the Oktoberfest, must
+now be noted. The 2023 event takes place from 16.09.2023 to 03.10.2023.
+To do this, the function `checkOktoberfest` is created, which is given a
+date as parameter, and checks if this date is within period of the
+Oktoberfest. After that a new attribute `oktoberfest` is created in
+`hotel_data`, which indicates with the help of the mentioned function,
+whether the Oktoberfest takes place on a specific day or not.
 
-You can also embed plots, for example:
+``` r
+checkOktoberfest <- function(roomDate) {
+  oktoberfestDateInterval = interval(ymd("2023-09-16"), ymd("2023-10-03"))
+  roomDate %within% oktoberfestDateInterval
+}
 
-![](Data_Analysis_files/figure-gfm/pressure-1.png)<!-- -->
+hotel_data <- hotel_data  %>%
+  mutate(oktoberfest = unlist(map(.x = date, .f = checkOktoberfest)))
+```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+#### Price over time
+
+In the following figures, the temporal price progression over the period
+from April 10, 2023 to December 31, 2023 is illustrated for the selected
+hotels. Vertical lines have been included on these to indicate the start
+and end of the Oktoberfest period. From these figures, it can be seen
+that all hotels retrieve the highest average prices of the year during
+the Oktoberfest period. Although there are clearly similar fluctuations
+in the pricing of hotel rooms at other times of the year, these cannot
+be compared with the extent of the Oktoberfest.
+
+![](Data_Analysis_files/figure-gfm/price%20over%20time%20plots-1.png)<!-- -->![](Data_Analysis_files/figure-gfm/price%20over%20time%20plots-2.png)<!-- -->
