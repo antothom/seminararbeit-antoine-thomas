@@ -110,8 +110,8 @@ hotel_data %>%
   geom_line() +
   geom_vline(xintercept = date("2023-09-16"), colour = "red", alpha =.3) +
   geom_vline(xintercept = date("2023-10-03"), colour = "red", alpha = .3) +
-  geom_smooth() +
-  labs(x = "Date", y = "Room Rate")
+  labs(x = "Date", y = "Room Rate", title = "Average price over time for a double bedroom in a hotel in the center of Munich, Germany (04/23-12/23)") +
+  theme(plot.title = element_text(face = "bold"))
   
 hotel_data %>%
   ggplot(aes(x = date, y = price)) +
@@ -120,7 +120,8 @@ hotel_data %>%
   geom_vline(xintercept = date("2023-10-03"), colour = "red", alpha = .3) +
   facet_wrap(~name) +
   theme_bw() +
-  labs(x = "Date",y = "Room Rate", title = "Price history for a double bedroom in 10 similar hotels in the center of Munich, Germany (04/23-12/23)")
+  labs(x = "Date",y = "Room Rate", title = "Price over time for a double bedroom in 10 similar hotels in the center of Munich, Germany (04/23-12/23)") +
+  theme(plot.title = element_text(face = "bold"))
 
 # Boxplot showing that during the time not related to the oktoberfest, there are a lot of outliers
 hotel_data_no_oktoberfest %>%
@@ -131,6 +132,7 @@ hotel_data_no_oktoberfest %>%
         axis.text.y=element_blank(),
         axis.ticks.y=element_blank(),
         plot.title = element_text(face = "bold")) +
+  theme_bw() +
   labs(x = "Room rate", title = "Room rate distribution in times not related to the Oktoberfest 2023")
 
 # Average room rate in Munich during a time with no particularly high demand
@@ -140,6 +142,16 @@ avg_price_no_oktoberfest <- hotel_data_no_oktoberfest %>%
   pull(price) %>%
   mean()
 
+
+hotel_data_no_oktoberfest %>%
+  filter(price > quantile(hotel_data_no_oktoberfest$price, .875)) %>%
+  mutate(weekday = wday(date, label = TRUE)) %>%
+  group_by(weekday) %>%
+  summarise(amount = n()) %>%
+  ggplot(aes(x = weekday, y = amount)) +
+  geom_col()
+  
+
 # Average room rate in Munich during the time with no particularly high demand
 avg_price_oktoberfest <- hotel_data_oktoberfest %>%
   pull(price) %>%
@@ -148,7 +160,7 @@ avg_price_oktoberfest <- hotel_data_oktoberfest %>%
 ## Average values per hotel
 
 avg_room_rates_no_event <- hotel_data_no_oktoberfest %>%
-  filter(price < quantile(hotel_data_no_oktoberfest$price, .75)) %>%
+  filter(price < quantile(hotel_data_no_oktoberfest$price, .875)) %>%
   group_by(name) %>%
   summarise(room_rate_no_event = mean(price)) %>%
   arrange(room_rate_no_event)
