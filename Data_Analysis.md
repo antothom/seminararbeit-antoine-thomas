@@ -198,6 +198,12 @@ avg_room_rates_no_event %>%
 |-------------------:|
 |          0.3197654 |
 
+In the course of the further analysis, room rates had to be assumed for
+the high demand phase, the Oktoberfest, as well as the ordinary demand
+phases. For this purpose, the corresponding previously defined average
+values (401€/night at times of the Oktoberfest, 123€/night in normal
+demand phases) were used.
+
 ### Hotel market performance in Munich
 
 To obtain general data on the performance of hotels in Munich, the
@@ -216,12 +222,129 @@ not take place in these two years and the Munich hotel industry was in
 an exceptional situation, the use of data from 2020 and 2021 does not
 make sense in our analysis.
 
+In the hotel market report Colliers International, hotel performance
+KPIs from 2009 to 2019 can be taken from a graph. Its data was extracted
+in order to enable a reproduction as part of the Data Collection.
+According to the report, a positive development of the Munich market
+could be observed in 2019. Although room occupancy declined by
+approximately 1.3%, this was compensated by a slight increase in room
+rates. Thus, the revenue per available room also increased slightly
+(Colliers International Hotel GmbH 2020).
+
+The following figure illustrates the average annual values of the
+Average Daily Rate (ADR (€)), the Revenue Per Available Room (REVPAR
+(€)) as well as the Occupancy (OCC (%)) for every year from 2009 to 2019
+in Munich.
+
+``` r
+# Import of hotel performance data
+hotel_performance_muc <- read_csv2("munich_arr_revpar_occ.csv") %>%
+  # Converting number formats and data types to vizualisable 
+  mutate(`OCC (%)` = `OCC (%)`/100,
+         Year = as.factor(Year))
+
+# Converting 'ARR (€)' and 'RevPAR (€)' to numeric values
+hotel_performance_muc$`ARR (€)` <- as.numeric(gsub(" €", "", hotel_performance_muc$`ARR (€)`) %>%
+             gsub(",", ".", .))
+hotel_performance_muc$`RevPAR (€)` <- as.numeric(gsub(" €", "", hotel_performance_muc$`RevPAR (€)`) %>%
+                            gsub(",", ".", .))
+
+hotel_performance_muc <- hotel_performance_muc %>%
+  gather(key = "KPI", value = "Value", 2:4)
+
+hotel_performance_muc %>%
+  filter(KPI != "OCC (%)") %>%
+  ggplot(aes(x = Year, y = Value, fill = KPI)) +
+  geom_col(position="dodge", ) +
+  geom_text(aes(label = Value), data = hotel_performance_muc%>%filter(KPI == "RevPAR (€)"), nudge_y = -3.5 , nudge_x = 0.22, color = "white", fontface= "bold",size=3) +
+  geom_text(aes(label = Value), data = hotel_performance_muc%>%filter(KPI == "ARR (€)"), nudge_y = -3.5 , nudge_x = -0.22, color = "white", fontface= "bold",size=3) +
+  geom_line(mapping= aes(x = Year, y = (Value*100)/0.83), data = hotel_performance_muc%>%filter(KPI == "OCC (%)"),group = 1, linewidth = 1, color = "#00BA38") +
+  scale_y_continuous(sec.axis = sec_axis(~ . * 0.83, name = "Performance (%)")) +
+  labs(y = "Performance (€)", fill = "", title = "Average performance of hotels in Munich from 2009 to 2019") +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold"))
+```
+
+![](Data_Analysis_files/figure-gfm/import%20of%20hotel%20performance%20kpis-1.png)<!-- -->
+
+In order to apply Leon and Lee’s model, a room rate as well as an
+associated occupancy rate must be given for each demand phase. As the
+average room rates for high and normal demand were determined in the
+first part of the analysis, occupancy rates had to be estimated for the
+hotel market in Munich. According to an article in the “Süddeutsche
+Zeitung” on hotel bookings at times of the Oktoberfest, almost all
+hotels were fully booked out in 2019, not only in Munich, but also
+outside the city (Katharina Haase 2022). Since the sample taken consists
+of mid-range hotels in the direct proximity of the Oktoberfest, it was
+assumed in the further analysis that these were always fully booked at
+times of the event. With an average price of 401€, it was therefore
+assumed that a hotel in our sample has an occupancy rate of 100% at the
+time of the event.
+
+For an estimation of the occupancy rate during a normal demand period,
+the data in Colliers International’s 2019 market report was used. For
+this purpose, the average of occupancy rates for 2019 and 2018 was
+initially calculated. However, since this figure is an average value for
+the whole year, which does not take into account the fact that an
+occupancy rate of 100% was assumed for the 17 days on which Oktoberfest
+takes place, it must be adjusted accordingly.
+
+``` r
+# Average of occupancy for 2019 and 2018
+avg_occ_1819 <- hotel_performance_muc %>%
+  filter(Year %in% c("2019" , "2018"), KPI == "OCC (%)") %>%
+  summarise(`Average occupancy`= mean(Value))
+
+avg_occ_1819 %>%
+  kable()
+```
+
+| Average occupancy |
+|------------------:|
+|             0.772 |
+
+<br />
+
+**Formula for an adjusted occupancy:**<br />
+
+- OCC<sub>adj</sub>: adjusted occupancy
+- OCC<sub>avg</sub>: average occupancy over the entire year
+- OCC<sub>okt</sub>: occupancy during the Oktoberfest
+
+<br /> $$
+OCC_{adj} = \frac{365 * OCC_{avg} - 17 * OCC_{okt}}{365-17}
+$$ <br />
+
+``` r
+# An occupancy rate of 100% is assumed during the time of Oktoberfest
+# Duration of the Oktoberfest (in days)
+duration_oktoberfest <- int_length(interval(ymd("2023-09-16"), ymd("2023-10-03")))/(60*60*24)
+
+# Calculation adjusted occupancy rate
+avg_occ_no_event <- (365*avg_occ_1819$`Average occupancy`-17*1)/(365-17)
+
+kable(avg_occ_no_event, col.names = "avg_adj_occ", caption = "Average adjusted occupancy rate in times not related to the Oktoberfest")
+```
+
+| avg_adj_occ |
+|------------:|
+|   0.7608621 |
+
+Average adjusted occupancy rate in times not related to the Oktoberfest
+
 <div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-colliers1" class="csl-entry">
+
+Colliers International Hotel GmbH. 2020. “München: Hotelmarkt 2019
+Q1-Q4.” January 1, 2020.
+[https://www.colliers.de/wp-content/uploads/2020/05/Hotelmarktbericht_München_2020_Colliers.pdf](https://www.colliers.de/wp-content/uploads/2020/05/Hotelmarktbericht_München_2020_Colliers.pdf).
+
+</div>
 
 <div id="ref-colliers2" class="csl-entry">
 
-Colliers International Hotel GmbH. 2021. “München: Hotelmarkt 2020
-Q1-Q4.” January 1, 2021.
+———. 2021. “München: Hotelmarkt 2020 Q1-Q4.” January 1, 2021.
 [https://www.colliers.de/wp-content/uploads/2022/01/JAN_PDF_Hotelmarktbericht_München_2021_Colliers_Bild.pdf](https://www.colliers.de/wp-content/uploads/2022/01/JAN_PDF_Hotelmarktbericht_München_2021_Colliers_Bild.pdf).
 
 </div>
@@ -230,6 +353,14 @@ Q1-Q4.” January 1, 2021.
 
 ———. 2022. “München: Hotelmarkt 2021 Q1-Q4.” January 1, 2022.
 [https://www.colliers.de/wp-content/uploads/2022/12/Hotelmarktbericht_München_2022_Colliers.pdf](https://www.colliers.de/wp-content/uploads/2022/12/Hotelmarktbericht_München_2022_Colliers.pdf).
+
+</div>
+
+<div id="ref-haase1" class="csl-entry">
+
+Katharina Haase, SZ. 2022. “Hoteliers Zu Möglicher Wiesn-Absage: "Es
+Gibt Keinen Plan b!".” July 20, 2022.
+<https://www.sueddeutsche.de/muenchen/oktoberfest-2022-muenchen-hotels-buchungen-1.5623836>.
 
 </div>
 

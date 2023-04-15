@@ -18,10 +18,9 @@ hotel_performance_muc %>%
   filter(KPI != "OCC (%)") %>%
   ggplot(aes(x = Year, y = Value, fill = KPI)) +
   geom_col(position="dodge", ) +
-  geom_text(aes(label = Value), data = hotel_performance_muc%>%filter(KPI == "RevPAR (€)"), nudge_y = -3.5 , nudge_x = 0.22, color = "white", fontface= "bold") +
-  geom_text(aes(label = Value), data = hotel_performance_muc%>%filter(KPI == "ARR (€)"), nudge_y = -3.5 , nudge_x = -0.22, color = "white", fontface= "bold") +
+  geom_text(aes(label = Value), data = hotel_performance_muc%>%filter(KPI == "RevPAR (€)"), nudge_y = -3.5 , nudge_x = 0.22, color = "white", fontface= "bold",size=3) +
+  geom_text(aes(label = Value), data = hotel_performance_muc%>%filter(KPI == "ARR (€)"), nudge_y = -3.5 , nudge_x = -0.22, color = "white", fontface= "bold",size=3) +
   geom_line(mapping= aes(x = Year, y = (Value*100)/0.83), data = hotel_performance_muc%>%filter(KPI == "OCC (%)"),group = 1, linewidth = 1, color = "#00BA38") +
-  #geom_text(aes(label = Value), data = hotel_performance_muc%>%filter(KPI == "OCC (%)")%>%mutate(Value = Value*100), nudge_y = 20, fontface= "bold") +
   scale_y_continuous(sec.axis = sec_axis(~ . * 0.83, name = "Performance (%)")) +
   labs(y = "Performance (€)", fill = "", title = "Average performance of hotels in Munich from 2009 to 2019") +
   theme_bw() +
@@ -29,8 +28,8 @@ hotel_performance_muc %>%
 
 
 # Average occupancy in 2019 and 2018
-avg_occ_20182019 <- hotel_performance_muc %>%
-  filter(Year %in% c("2019" , "2018"), KPI == "OCC (%)") %>%
+avg_occ_171819 <- hotel_performance_muc %>%
+  filter(Year %in% c("2019" , "2018", "2017"), KPI == "OCC (%)") %>%
   select(-KPI) %>%
   pull(Value) %>%
   mean()
