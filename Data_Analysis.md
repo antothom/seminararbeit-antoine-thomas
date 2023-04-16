@@ -1,7 +1,7 @@
 Seminar Work - Data Analysis
 ================
 Antoine Thomas
-2023-04-15
+2023-04-16
 
 ## Data Analysis
 
@@ -332,6 +332,76 @@ kable(avg_occ_no_event, col.names = "avg_adj_occ", caption = "Average adjusted o
 
 Average adjusted occupancy rate in times not related to the Oktoberfest
 
+<br />
+
+### Relationship between room rate and occupancy
+
+If hotels set their prices higher than those of their competitors and
+the demand on the market remains equal, they will most probably
+experience higher revenues. Contrarily, if the set prices are lower than
+those of the competition, respective hotels are likely to encounter
+higher occupancy . In Enz’ and Canina’s study, the impact on hotel
+revenues and occupancy rates was determined on the basis of price
+differences among direct competitors in a local market. They found that
+price differences in the average room rate relative to competitors had
+an impact on revenues and occupancy rates. However, relative price
+differences are not found to cause large fluctuations in occupancy
+rates. On average, a 15-30% higher room rate relative to the competition
+results in a 3.46% lower occupancy rate. A 15-30% lower room rate
+results in an occupancy rate increase of 5.9%. When distinguishing
+between hotels belonging to a chain and independent hotels, significant
+differences can be observed. It clearly stands out that independent
+hotels are confronted with lower revenues and occupancy rates (Enz and
+Canina 2010). These figures, which apply to the European market, were
+considered to be representative of the market in Munich for the purposes
+of this work. They were extracted in the following analysis and used to
+determine a price-demand relationship for the hotel market in Munich.
+
+``` r
+# Import of data on RevPAR and occupancy differences (chain v independent)
+revpar_and_occupancy <- read_csv2(file= "revpar_and_occupancy.csv") %>%
+  gather(key = "kpi", value = "rel_change", 2:3) %>%
+  mutate(ADR = as.numeric(ADR)/100,
+         rel_change = as.numeric(rel_change)/100)
+
+# Plotting according to the Figure in the named report
+revpar_and_occupancy %>%
+  ggplot(aes(x = ADR, y = rel_change, colour = kpi)) +
+  geom_line() +
+  geom_line(stat = "smooth", method = "lm", se = F, linetype = "dashed", alpha = .7) +
+  labs(x = "Relative difference in ADR",
+       y = "Relative difference from the competition",
+       title = "RevPAR and occupancy differences in European hotels, 2004-2013",
+       colour = "") +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold"), legend.position = "bottom")
+```
+
+![](Data_Analysis_files/figure-gfm/revpar%20and%20occupancy%20differences-1.png)<!-- -->
+
+``` r
+# Import of data on RevPAR and occupancy differences (chain v independent)
+revpar_and_occupancy_chain_ind <- read_csv2(file= "revpar_and_occupancy_chain_ind.csv") %>%
+  gather(key = "kpi", value = "rel_change", 2:5) %>%
+  mutate(ADR = as.numeric(ADR)/100,
+         rel_change = as.numeric(rel_change)/100)
+
+# Plotting according to the Figure in the named report
+revpar_and_occupancy_chain_ind %>%
+  ggplot(aes(x = ADR, y = rel_change, colour = kpi)) +
+  geom_line() +
+  geom_line(stat = "smooth", method = "lm", se = F, linetype = "dashed", alpha = .7) +
+  labs(x = "Relative difference in ADR",
+       y = "Relative difference from the competition",
+       title = "RevPAR and occupancy differences in European hotels, 2004-2013",
+       subtitle = "Differentiation between being chain-affiliated and independent",
+       colour = "") +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold"), legend.position = "bottom")
+```
+
+![](Data_Analysis_files/figure-gfm/revpar%20and%20occupancy%20differences-2.png)<!-- -->
+
 <div id="refs" class="references csl-bib-body hanging-indent">
 
 <div id="ref-colliers1" class="csl-entry">
@@ -353,6 +423,14 @@ Q1-Q4.” January 1, 2020.
 
 ———. 2022. “München: Hotelmarkt 2021 Q1-Q4.” January 1, 2022.
 [https://www.colliers.de/wp-content/uploads/2022/12/Hotelmarktbericht_München_2022_Colliers.pdf](https://www.colliers.de/wp-content/uploads/2022/12/Hotelmarktbericht_München_2022_Colliers.pdf).
+
+</div>
+
+<div id="ref-enz2010competitive" class="csl-entry">
+
+Enz, Cathy A, and Linda Canina. 2010. “Competitive Pricing in European
+Hotels.” In *Advances in Hospitality and Leisure*, 6:3–25. Emerald Group
+Publishing Limited.
 
 </div>
 
