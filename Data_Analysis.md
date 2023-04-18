@@ -1,7 +1,7 @@
 Seminar Work - Data Analysis
 ================
 Antoine Thomas
-2023-04-16
+2023-04-17
 
 ## Data Analysis
 
@@ -340,7 +340,7 @@ If hotels set their prices higher than those of their competitors and
 the demand on the market remains equal, they will most probably
 experience higher revenues. Contrarily, if the set prices are lower than
 those of the competition, respective hotels are likely to encounter
-higher occupancy . In Enz’ and Canina’s study, the impact on hotel
+higher occupancy. In Enz’ and Canina’s study, the impact on hotel
 revenues and occupancy rates was determined on the basis of price
 differences among direct competitors in a local market. They found that
 price differences in the average room rate relative to competitors had

@@ -296,7 +296,7 @@ hotel_performance_muc %>%
   geom_text(aes(label = Value), data = hotel_performance_muc%>%filter(KPI == "ARR (€)"), nudge_y = -3.5 , nudge_x = -0.22, color = "white", fontface= "bold",size=3) +
   geom_line(mapping= aes(x = Year, y = (Value*100)/0.83), data = hotel_performance_muc%>%filter(KPI == "OCC (%)"),group = 1, linewidth = 1, color = "#00BA38") +
   scale_y_continuous(sec.axis = sec_axis(~ . * 0.83, name = "Performance (%)")) +
-  labs(y = "Performance (€)", fill = "", title = "Average performance of hotels in Munich from 2009 to 2019") +
+  labs(y = "Performance (€)", fill = "", title = "Average performance of hotels in Munich from 2009 to 2019", caption = "Source: Colliers International Hotel GmbH") +
   theme_bw() +
   theme(plot.title = element_text(face = "bold"))
 ```
@@ -327,7 +327,8 @@ avg_occ_1819 %>%
 
 <br />
 $$
-OCC_{adj} = \frac{365 * OCC_{avg} - 17 * OCC_{okt}}{365-17}
+OCC_{adj} = \frac{365 * OCC_{avg} - 17 * OCC_{okt}}{365-17} \\
+OCC_{avg} = \frac{OCC_{adj} * (365-17) + OCC_{okt} * 17}{365}
 $$
 <br />
 ```{r average adjusted occupancy rate, echo=TRUE, message=FALSE, warning=FALSE}
@@ -342,10 +343,10 @@ kable(avg_occ_no_event, col.names = "avg_adj_occ", caption = "Average adjusted o
 ```
 <br />
 
-### Relationship between room rate and occupancy
+### Price-Demand Relationship
 
-If hotels set their prices higher than those of their competitors and the demand on the market remains equal, they will most probably experience higher revenues. Contrarily, if the set prices are lower than those of the competition, respective hotels are likely to encounter higher occupancy . In Enz' and Canina's study, the impact on hotel revenues and occupancy rates was determined on the basis of price differences among direct competitors in a local market. They found that price differences in the average room rate relative to competitors had an impact on revenues and occupancy rates. However, relative price differences are not found to cause large fluctuations in occupancy rates. On average, a 15-30% higher room rate relative to the competition results in a 3.46% lower occupancy rate. A 15-30% lower room rate results in an occupancy rate increase of 5.9%. When distinguishing between hotels belonging to a chain and independent hotels, significant differences can be observed. It clearly stands out that independent hotels are confronted with lower revenues and occupancy rates [@enz2010competitive].
-These figures, which apply to the European market, were considered to be representative of the market in Munich for the purposes of this work. They were extracted in the following analysis and used to determine a price-demand relationship for the hotel market in Munich.
+If hotels set their prices higher than those of their competitors and the demand on the market remains equal, they will most probably experience higher revenues. Contrarily, if the set prices are lower than those of the competition, respective hotels are likely to encounter higher occupancy. In Enz' and Canina's study, the impact on hotel revenues and occupancy rates was determined on the basis of price differences among direct competitors in a local market. They found that price differences of the average room rate relative to competitors has an impact on revenues and occupancy rates. However, price differences are generally found to cause rather small impact on occupancy rates. On average, a 15-30% higher room rate relative to the competition results in a 3.46% lower occupancy rate. A 15-30% lower room rate results in an occupancy rate increase of 5.9%. When distinguishing between hotels belonging to a chain and independent hotels, significant differences can be observed. It clearly stands out that independent hotels are confronted with lower revenues and occupancy rates than chain-affiliated hotels [@enz2010competitive].
+These figures, which apply to the European market, were considered to be representative of the market in Munich for the purposes of this work. Their data wes extracted in the following analysis and used to determine a price-demand relationship for the hotel market in Munich.
 
 ```{r revpar and occupancy differences, echo=TRUE, message=FALSE, warning=FALSE}
 
@@ -390,6 +391,104 @@ revpar_and_occupancy_chain_ind %>%
 
 ```
 
+From these figures, it can be recognized that even with an unchanged price, hotels can observe a difference in occupancy and RevPAR compared to their competitors. This is primarily due to the fact that the data collected by Enz and Canina includes competitive sets for each hotel, which were defined by each hotel itself. Accordingly, each hotel has named at least 4 direct competitors according to its own conscience and basic specifications set by STR Global, an organization that provides market data on the hotel industry worldwide [@enz2010competitive]. Since the depicted correlations were determined by a performance comparison of each hotel with its own and self-proclaimed direct competitors, it is reasonable to assume that hotels have named direct competitors that perform worse on average than themselves. This would be a plausible explanation for the fact that the regression lines do not intersect the y-axis at the zero point.
+This phenomenon can mainly be observed in chain-affiliated hotels. Since chain-affiliated hotels can define independent hotels as direct competitors, it would be a realistic assumption to say that chain-affiliated hotels charging the same room rate as directly competing independent hotels present a higher value to consumers.
+<br/>
+However, since our sample exclusively represents hotels with very similar characteristics, and we must assume for reasons of simplicity that a consumer is indifferent between all hotels at a given price, the regression lines in our case must cross the origin. Accordingly, the price-demand relationship was assumed to be as shown in the following figure.
 
+```{r}
+# Create linear regression for Price-Occupancy Relationship
+lm_occupancy <- revpar_and_occupancy %>%
+  filter(kpi == "Occupancy") %>%
+  lm(rel_change ~ ADR, data = .)
+
+# Change Intercept to 0
+lm_occupancy$coefficients[[1]] <- 0
+
+# Create linear regression for Price-RevPAR Relationship
+lm_revpar <- revpar_and_occupancy %>%
+  filter(kpi == "RevPAR") %>%
+  lm(rel_change ~ ADR, data = .)
+
+# Change Intercept to 0
+lm_revpar$coefficients[[1]] <- 0
+
+# create Values for plot
+
+tibble(ADR = c(-0.3,0.3)) %>%
+  mutate(Occupancy = predict(lm_occupancy, .),
+         RevPAR = predict(lm_revpar,.)) %>%
+  gather(data = .,key = "kpi", value = "rel_change", 2:3) %>%
+  ggplot(aes(x = ADR, y = rel_change, colour = kpi)) +
+  geom_line(stat = "smooth", method = "lm", se = F) +
+  labs(x = "Relative difference in ADR",
+       y = "Relative difference from the competition",
+       title = "RevPAR and occupancy differences for the Munich hotel sample",
+       colour = "") +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold"))
+
+```
+
+Nun kommt 
+
+
+```{r}
+
+123€
+76%
+
+predict(lm_occupancy,tibble(ADR = c(0.7)))[[1]]
+
+tibble(room_rate = c(123, 123*1.7), occupancy = c(76, 76*(1+test))) %>%
+  mutate(oktoberfest = F)
+
+tibble(room_rate = c(401, 401*1.7), occupancy = c(100, 100*(1+test))) %>%
+  mutate(oktoberfest = T) %>%
+  rbind(tibble(room_rate = c(123, 123*1.7), occupancy = c(76, 76*(1+test))) %>%
+  mutate(oktoberfest = F)) %>%
+  ggplot(aes(x = room_rate, y = occupancy, colour = oktoberfest)) +
+  geom_line()
+
+
+```
+
+
+
+
+A linear regression analysis was conducted to create a relationship between price and occupancy rate in the Munich hotel market. The relative change in occupancy was defined as the dependent variable, while the relative difference in average daily rate was to be considered as the explanatory variable.
+
+```{r}
+lm_occupancy <- filter(revpar_and_occupancy, kpi == "Occupancy") %>%
+  lm(formula = rel_change ~ ADR, data = .)
+
+create_occ_rates <- function(def_room_rate, def_occupancy) {
+  rel_adr_change = seq(-0.5,0.5,by=0.05)
+  values <- tibble(
+  ADR = numeric(),
+  occupancy = numeric())
+  
+  for (adr in rel_adr_change) {
+    values <- tibble(ADR = adr) %>%
+      mutate(occupancy = adr*lm_occupancy$coefficients[[2]]) %>%
+      mutate(ADR = (ADR + 1)*def_room_rate,
+             occupancy = (occupancy+1)*def_occupancy) %>%
+      rbind(values,.)
+  }
+  return(values)
+}
+
+
+rates1 <- create_occ_rates(123,70) %>%
+  mutate(rates = 1)
+
+rates2 <- create_occ_rates(400,100) %>%
+  mutate(rates = 2)
+
+rbind(rates1,rates2) %>%
+  ggplot(aes(x = ADR, y = occupancy), colour = rates) +
+  geom_point()
+
+```
 
 
