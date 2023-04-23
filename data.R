@@ -183,5 +183,5 @@ computeAdrOccRel <- function(avg_rate, avg_occ, rel_diff) {
     .$coefficients
 }
 
-computeAdrOccRel(115.39, 0.76, 0.2)
+computeAdrOccRel(115.39, 0.73, 0.1)
   

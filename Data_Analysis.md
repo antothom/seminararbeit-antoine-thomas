@@ -1,7 +1,7 @@
 Seminar Work - Data Analysis
 ================
 Antoine Thomas
-2023-04-17
+2023-04-23
 
 ## Data Analysis
 
@@ -113,6 +113,18 @@ adjusted average values could be determined. In 2023, according to our
 dataset, the average price of a single double room in a mid-range hotel
 during Oktoberfest is around €402. Over the rest of the year, a room
 costs about 124€ per night.
+
+``` r
+hotel_data %>%
+  group_by(date) %>%
+  summarise(price = mean(price)) %>%
+  summarise(price = mean(price)) %>%
+  kable()
+```
+
+|   price |
+|--------:|
+| 166.627 |
 
 ``` r
 hotel_data_no_oktoberfest %>%
@@ -260,7 +272,7 @@ hotel_performance_muc %>%
   geom_text(aes(label = Value), data = hotel_performance_muc%>%filter(KPI == "ARR (€)"), nudge_y = -3.5 , nudge_x = -0.22, color = "white", fontface= "bold",size=3) +
   geom_line(mapping= aes(x = Year, y = (Value*100)/0.83), data = hotel_performance_muc%>%filter(KPI == "OCC (%)"),group = 1, linewidth = 1, color = "#00BA38") +
   scale_y_continuous(sec.axis = sec_axis(~ . * 0.83, name = "Performance (%)")) +
-  labs(y = "Performance (€)", fill = "", title = "Average performance of hotels in Munich from 2009 to 2019") +
+  labs(y = "Performance (€)", fill = "", title = "Average performance of hotels in Munich from 2009 to 2019", caption = "Source: Colliers International Hotel GmbH") +
   theme_bw() +
   theme(plot.title = element_text(face = "bold"))
 ```
@@ -313,6 +325,8 @@ avg_occ_1819 %>%
 
 <br /> $$
 OCC_{adj} = \frac{365 * OCC_{avg} - 17 * OCC_{okt}}{365-17}
+$$ $$
+OCC_{avg} = \frac{OCC_{adj} * (365-17) + OCC_{okt} * 17}{365}
 $$ <br />
 
 ``` r
@@ -334,7 +348,7 @@ Average adjusted occupancy rate in times not related to the Oktoberfest
 
 <br />
 
-### Relationship between room rate and occupancy
+### Price-Demand Relationship
 
 If hotels set their prices higher than those of their competitors and
 the demand on the market remains equal, they will most probably
@@ -343,19 +357,20 @@ those of the competition, respective hotels are likely to encounter
 higher occupancy. In Enz’ and Canina’s study, the impact on hotel
 revenues and occupancy rates was determined on the basis of price
 differences among direct competitors in a local market. They found that
-price differences in the average room rate relative to competitors had
-an impact on revenues and occupancy rates. However, relative price
-differences are not found to cause large fluctuations in occupancy
-rates. On average, a 15-30% higher room rate relative to the competition
-results in a 3.46% lower occupancy rate. A 15-30% lower room rate
-results in an occupancy rate increase of 5.9%. When distinguishing
-between hotels belonging to a chain and independent hotels, significant
-differences can be observed. It clearly stands out that independent
-hotels are confronted with lower revenues and occupancy rates (Enz and
-Canina 2010). These figures, which apply to the European market, were
-considered to be representative of the market in Munich for the purposes
-of this work. They were extracted in the following analysis and used to
-determine a price-demand relationship for the hotel market in Munich.
+price differences of the average room rate relative to competitors has
+an impact on revenues and occupancy rates. However, price differences
+are generally found to cause rather small impact on occupancy rates. On
+average, a 15-30% higher room rate relative to the competition results
+in a 3.46% lower occupancy rate. A 15-30% lower room rate results in an
+occupancy rate increase of 5.9%. When distinguishing between hotels
+belonging to a chain and independent hotels, significant differences can
+be observed. It clearly stands out that independent hotels are
+confronted with lower revenues and occupancy rates than chain-affiliated
+hotels (Enz and Canina 2010). These figures, which apply to the European
+market, were considered to be representative of the market in Munich for
+the purposes of this work. Their data wes extracted in the following
+analysis and used to determine a price-demand relationship for the hotel
+market in Munich.
 
 ``` r
 # Import of data on RevPAR and occupancy differences (chain v independent)
@@ -402,6 +417,237 @@ revpar_and_occupancy_chain_ind %>%
 
 ![](Data_Analysis_files/figure-gfm/revpar%20and%20occupancy%20differences-2.png)<!-- -->
 
+From these figures, it can be obvserved that even with an unchanged
+price, hotels can observe a difference in occupancy and RevPAR compared
+to their competitors. This is primarily due to the fact that the data
+collected by Enz and Canina includes competitive sets for each hotel,
+which were defined by each hotel itself. Each hotel has named at least 4
+direct competitors according to its own conscience and basic
+specifications set by STR Global, an organization that provides market
+data on the hotel industry worldwide (Enz and Canina 2010). Since the
+depicted correlations were determined by a performance comparison of
+each hotel with its own and self-proclaimed direct competitors, it is
+reasonable to assume that hotels have named direct competitors that
+perform worse on average than themselves. This would be a plausible
+explanation for the fact that the regression lines do not intersect the
+y-axis at the zero point. This phenomenon can mainly be observed in
+chain-affiliated hotels. Since chain-affiliated hotels can define
+independent hotels as direct competitors, it would be a realistic
+assumption to say that chain-affiliated hotels charging the same room
+rate as directly competing independent hotels present a higher value to
+consumers. <br/> However, since our sample exclusively represents hotels
+with very similar characteristics, and we must assume for reasons of
+simplicity that a consumer is indifferent between all hotels at a given
+price, the regression lines must cross the origin in our case.
+Accordingly, the price-demand relationship was assumed to be as shown in
+the following figure.
+
+At the same time, because only average values are available regarding
+the relationship of price and demand, it is not possible to define how
+it exactly behaves in both high and normal demand phases. Accordingly,
+in our case, the given average values have been applied for both phases.
+
+``` r
+# Create linear regression for Price-Occupancy Relationship
+lm_occupancy <- revpar_and_occupancy %>%
+  filter(kpi == "Occupancy") %>%
+  lm(rel_change ~ ADR, data = .)
+
+# Change Intercept to 0
+lm_occupancy$coefficients[[1]] <- 0
+
+# Create linear regression for Price-RevPAR Relationship
+lm_revpar <- revpar_and_occupancy %>%
+  filter(kpi == "RevPAR") %>%
+  lm(rel_change ~ ADR, data = .)
+
+# Change Intercept to 0
+lm_revpar$coefficients[[1]] <- 0
+
+# Create values for plot
+tibble(ADR = c(-0.3,0.3)) %>%
+  mutate(Occupancy = predict(lm_occupancy, .),
+         RevPAR = predict(lm_revpar,.)) %>%
+  gather(data = .,key = "kpi", value = "rel_change", 2:3) %>%
+  ggplot(aes(x = ADR, y = rel_change, colour = kpi)) +
+  geom_line(stat = "smooth", method = "lm", se = F) +
+  labs(x = "Relative difference in ADR",
+       y = "Relative difference from the competition",
+       title = "RevPAR and occupancy differences for the Munich hotel sample",
+       colour = "") +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold"))
+```
+
+![](Data_Analysis_files/figure-gfm/Adjusting%20the%20price%20and%20occupancy/RevPAR%20differences%20for%20the%20munich%20hotel%20sample-1.png)<!-- -->
+
+``` r
+# Function creating a table with specific prices and associated occupancy rates 
+# for a given price and the associated occupancy.
+# The previously created regression model was used to determine new data points.
+create_specific_occupancies <- function(given_rate, given_occupancy) {
+  tibble(
+    ADR = round(seq(-0.7, 0.7, by = 0.05), 2)
+  ) %>%
+    mutate(rel_change = predict(lm_occupancy, .)) %>%
+    mutate(
+      spec_ADR = given_rate * (1 + ADR),
+      spec_OCC = given_occupancy * (1 + rel_change)
+    )
+}
+
+# Creation of specific prices and associated occupancy rates for the time of the oktoberfest
+# Given ADR: 400€ - Given occupancy rate: 100%
+specific_price_demand_rel_oktoberfest <- create_specific_occupancies(400,100) %>%
+  mutate(demand = "Oktoberfest")
+
+# Creation of specific prices and associated occupancy rates for a normal demand phase
+# Given ADR: 123€ - Given occupancy rate: 76%
+specific_price_demand_rel_normal_phase <- 
+  create_specific_occupancies(123,76) %>%
+  mutate(demand = "Normal Phase")
+
+# Binding both tables for a following visualization of the price-demand relationship 
+# in both demand phases
+rbind(specific_price_demand_rel_oktoberfest,
+      specific_price_demand_rel_normal_phase) %>%
+  ggplot(aes(x = spec_ADR, y = spec_OCC, colour = demand)) +
+  geom_line(stat = "smooth", method = "lm", se = F) +
+  labs(x = "Room rate (€)", y = "Occupancy (%)", colour = "Demand phase", title = "Price-Demand Relationship in Munich") +
+  theme_bw() +
+  theme(plot.title = element_text(face = "bold")) +
+  stat_regline_equation(label.x.npc = .75)
+```
+
+![](Data_Analysis_files/figure-gfm/definition%20of%20a%20price%20demand%20relationship%20for%20our%20sample-1.png)<!-- -->
+
+``` r
+# Creation of a linear regression model for the price-demand relationship during 
+# the time of Oktoberfest
+specific_price_demand_rel_oktoberfest %>%
+  mutate(spec_OCC = spec_OCC/100) %>%
+  lm(spec_OCC ~ spec_ADR, .)
+```
+
+    ## 
+    ## Call:
+    ## lm(formula = spec_OCC ~ spec_ADR, data = .)
+    ## 
+    ## Coefficients:
+    ## (Intercept)     spec_ADR  
+    ##   1.1904986   -0.0004762
+
+``` r
+# Creation of a linear regression model for the price-demand relationship during 
+# a normal demand phase
+specific_price_demand_rel_normal_phase %>%
+  mutate(spec_OCC = spec_OCC/100) %>%
+  lm(spec_OCC ~ spec_ADR, .)
+```
+
+    ## 
+    ## Call:
+    ## lm(formula = spec_OCC ~ spec_ADR, data = .)
+    ## 
+    ## Coefficients:
+    ## (Intercept)     spec_ADR  
+    ##    0.904779    -0.001177
+
+### Cost structure
+
+Der Umfang und sowie die Struktur von Hotelkosten sind von
+verschiedensten Faktoren abhängig. Diese sind beispielsweise die
+Labilität der Nachfrage, der Umfang aber auch die Qualität der
+angebotenen Leistungen, die Größe eines jeweiligen hotels, der Standort
+oder auch die Eigentumsverhältnisse (Eigentümerbetrieb oder
+Pachtbetrieb). Des weiteren sind Aufwendungen von ca. 90-95% der Erträge
+durchaus üblich. Besonders prägend erweisen sich in der Kostenstruktur
+von hotels die Personal- und Warenaufwände. Zusätzlich sind der
+überwiegende Teil der Kosten fixe Kosten. Allgemein und auch für unseren
+Anwendungsfall ist jedoch eine Differenzierung zwischen fixen und
+variablen Kosten notwendig (Henschel, Gruner, and Freyberg 2018). Laut
+Hanschel et al. hängen die Kostenstrukturen in Hotels auch von
+Auslastungszahlen ab. Je höher die Auslastung, desto geringer die fixen
+Kosten. Gleichzeitig steigen die variablen Kosten. <br /> Im Rahmen
+unseres Anwendungsfalls müssen aufgrund fehlender konkreter Zahlen in
+Bezug auf die Kostenstruktur Münchener Hotels in Literatur zur Verfügung
+stehende Daten herangezogen werden. Zwei geeignete Tabellen können dazu
+dem Buch von Hanschel et al. entnommen werden. Die Berechnung der
+Aufwendungen wird abhängig von den Betriebserträgen durchgeführt (Tab.
+x1). Dabei kann zwischen einem Eigentümerbetrieb sowie einem
+Pachtbetrieb unterschieden werden. Die Kostenstruktur in Abhängigkeit
+der Leistungserstellung (Tab. x2) ermöglicht eine Einordnung der
+Aufwendungen in fixe und variable Kosten. Diese Kostenstruktur hängt
+sowohl vom Betriebstyp als auch von der durchschnittlichen Auslastung
+eines Hotels ab. Obwohl eine Differenzierung von fixen und variablen
+Kosten meist einem sehr hohen Aufwand verbunden ist, entstehen durch den
+spezifischen Leistungsprozess im Hotel die Fixkosten meist durch die
+Kapazitätskosten und Bereitschaftskosten. Beschäftigungsabhängige Kosten
+fallen unter die variablen Kosten von Hoteleinrichtungen (Henschel,
+Gruner, and Freyberg 2018) (Seite 203).
+
+Zur Ermittlung einer Kostenstruktur mussten für unseren Anwendungsfall
+aufgrund unerklärlicher Inkonsistenzen einige Daten in Tabelle x2 leicht
+angepasst werden. Es war aufgefallen, dass sich für gewisse Auslastungen
+und Hoteltypen die relativen Anteile an Kapazitätskosten,
+Bereitschaftskosten und Beschäftigungskosten nicht zu 100% addieren.
+Dabei sollte die Summe dieser drei Kostenkategorien die Gesamtkosten
+eines Hotels abbilden (Henschel, Gruner, and Freyberg 2018) (Seite 50).
+Um zu versichern, dass sich die drei kostenkategorien immer zu 100%
+addieren, wurden die Kostenkategrien folgendermaßen angepasst.
+
+$$
+Kapazitätskosten_{adj} = \frac{100\%}{Gesamtkosten}*Kapazitätskosten
+$$ $$
+Bereitschaftskosten_{adj} = \frac{100\%}{Gesamtkosten}*Bereitschaftskosten
+$$ $$
+Beschäftigungskosten_{adj} = \frac{100\%}{Gesamtkosten}*Beschäftigungskosten
+$$
+
+Für den weiteren Verlauf unserer Analyse wurde das Hotel garni als der
+geeignetste Betriebstyp gewählt. Ein Hotel garni ist ein Hotelbetrieb,
+der Beherbergung, Frühstück, Getränke und höchstens kleine Speisen
+anbietet (Colliers International Hotel GmbH 2022). Die entsprechenden
+Kostenstruktur wurden anschließend vereinfacht und auf fixe sowie
+variable Kosten reduziert (Tab. 457).
+
+Anhand dieser Daten wurden für die fixen und variablen Kosten folgende
+lineare Regressionsmodelle erstellt (FORMELN UND GROßEN PLOT EINFÜGEN).
+
+$$
+Y_{fix.costs} = 0.9235 - 0.11125 * X_{occupancy} 
+$$ $$
+Y_{var.costs} = 0.0765 + 0.11125 * X_{occupancy}
+$$ Im ersten Teil der Analyse wurde für den gesamten Zeitraum welcher
+durch die Stichprobe repräsentiert wird ein durchschnittlicher
+Zimmerpreis von 166.63€ ermittelt. Zusätzlich wurde als
+durchschnittliche auslastung von hotels in münchen anhand von
+hotelberichten auf 77.2% angenommen.
+
+Zunächst wurde die Berechnung der Anteile an fixen bzw. variablen Kosten
+anhand der linearen Regressionsmodelle (ABBILDUNG ANGEBEN) und unserer
+durchschnittlichen Hotelauslastung durchgeführt. Anschließend wurden für
+den Fall eines Eigentümerbetriebs sowie eines Pachtbetriebs die
+spezifischen fixen und variablen Aufwendungen (in % der Betriebserträge)
+berechnet. Dabei wurden die gesamten Aufwendungen (in % der
+Betriebserträge) mit dem Anteil an fixen bzw. variablen Kosten
+multipliziert.
+
+Spezifische fixe und variable Kosten ergaben sich anschließend durch
+folgende Formeln.
+
+$$
+\text{Average fix costs/room/night} = \text{Average room rate } * \text{ Relative fix cost rate } *\text{ Average occupancy}
+$$ $$
+\text{Average variable costs/occupied room} = \text{Average room rate } * \text{ Relative fix cost rate }
+$$
+
+Für unseren Anwendungsfall konnten Fixkosten in Höhe von 98.91€/104.19€
+(Eigentümer-/Pachtbetrieb) sowie variable Kosten in höhe von
+24.84€/26.17€ berechnet werden (TABELLE IN APPENDIX EINFÜGEN). Das
+gesamte aufgeführte Kostenmanagement wurde als Erweiterung im
+spreadsheet Model von Leong et al. integriert.
+
 <div id="refs" class="references csl-bib-body hanging-indent">
 
 <div id="ref-colliers1" class="csl-entry">
@@ -431,6 +677,14 @@ Q1-Q4.” January 1, 2020.
 Enz, Cathy A, and Linda Canina. 2010. “Competitive Pricing in European
 Hotels.” In *Advances in Hospitality and Leisure*, 6:3–25. Emerald Group
 Publishing Limited.
+
+</div>
+
+<div id="ref-HenschelGrunervonFreyberg+2018" class="csl-entry">
+
+Henschel, U. Karla, Axel Gruner, and Burkhard von Freyberg. 2018.
+*Hotelmanagement*. Berlin, Boston: De Gruyter Oldenbourg.
+<https://doi.org/doi:10.1515/9783110524079>.
 
 </div>
 
