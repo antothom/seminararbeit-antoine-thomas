@@ -1,0 +1,995 @@
+﻿name;date;adults;children;no_rooms;address;rating;room;capacity;price
+Brunnenhof City Center;2023-04-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;123
+Brunnenhof City Center;2023-04-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-04-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-04-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;160
+Brunnenhof City Center;2023-04-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-04-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-04-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-04-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-04-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-04-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-04-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-04-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-04-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-04-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-04-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-04-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-04-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-04-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-04-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-04-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-04-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-04-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-04-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;178
+Brunnenhof City Center;2023-04-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-04-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;171
+Brunnenhof City Center;2023-04-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;194
+Brunnenhof City Center;2023-04-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-04-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-04-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;260
+Brunnenhof City Center;2023-04-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;282
+Brunnenhof City Center;2023-04-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;282
+Brunnenhof City Center;2023-04-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;304
+Brunnenhof City Center;2023-04-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;371
+Brunnenhof City Center;2023-04-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;394
+Brunnenhof City Center;2023-04-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;371
+Brunnenhof City Center;2023-04-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;394
+Brunnenhof City Center;2023-04-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;274
+Brunnenhof City Center;2023-04-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;297
+Brunnenhof City Center;2023-04-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;297
+Brunnenhof City Center;2023-04-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;320
+Brunnenhof City Center;2023-04-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;154
+Brunnenhof City Center;2023-04-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;171
+Brunnenhof City Center;2023-04-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;175
+Brunnenhof City Center;2023-04-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;194
+Brunnenhof City Center;2023-04-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-04-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-04-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-04-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-04-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;201
+Brunnenhof City Center;2023-04-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;222
+Brunnenhof City Center;2023-04-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;223
+Brunnenhof City Center;2023-04-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;246
+Brunnenhof City Center;2023-04-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-04-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-04-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-04-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-04-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;118
+Brunnenhof City Center;2023-04-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;131
+Brunnenhof City Center;2023-04-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;137
+Brunnenhof City Center;2023-04-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;152
+Brunnenhof City Center;2023-04-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;154
+Brunnenhof City Center;2023-04-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;171
+Brunnenhof City Center;2023-04-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;175
+Brunnenhof City Center;2023-04-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;194
+Brunnenhof City Center;2023-04-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-04-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-04-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-04-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-04-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;201
+Brunnenhof City Center;2023-04-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;222
+Brunnenhof City Center;2023-04-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;223
+Brunnenhof City Center;2023-04-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;246
+Brunnenhof City Center;2023-05-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-05-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-05-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-05-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-05-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-05-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-05-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-05-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-05-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;122
+Brunnenhof City Center;2023-05-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;136
+Brunnenhof City Center;2023-05-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;142
+Brunnenhof City Center;2023-05-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;157
+Brunnenhof City Center;2023-05-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;146
+Brunnenhof City Center;2023-05-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;162
+Brunnenhof City Center;2023-05-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;166
+Brunnenhof City Center;2023-05-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;184
+Brunnenhof City Center;2023-05-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-05-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-05-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;178
+Brunnenhof City Center;2023-05-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-05-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;154
+Brunnenhof City Center;2023-05-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;171
+Brunnenhof City Center;2023-05-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;175
+Brunnenhof City Center;2023-05-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;194
+Brunnenhof City Center;2023-05-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-05-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-05-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-05-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-05-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;101
+Brunnenhof City Center;2023-05-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;111
+Brunnenhof City Center;2023-05-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;121
+Brunnenhof City Center;2023-05-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-05-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-05-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-05-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-05-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-05-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-05-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-05-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-05-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-05-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-05-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-05-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-05-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-05-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;267
+Brunnenhof City Center;2023-05-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;288
+Brunnenhof City Center;2023-05-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;297
+Brunnenhof City Center;2023-05-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;320
+Brunnenhof City Center;2023-05-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-05-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-05-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-05-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-05-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-05-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-05-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-05-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-05-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-05-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-05-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-05-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-05-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-05-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-05-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-05-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-05-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-05-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-05-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-05-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-05-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-05-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-05-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-05-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-06-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-06-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-06-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-06-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-06-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-06-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-06-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-06-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-06-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-06-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-06-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;178
+Brunnenhof City Center;2023-06-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-06-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;154
+Brunnenhof City Center;2023-06-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;171
+Brunnenhof City Center;2023-06-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;175
+Brunnenhof City Center;2023-06-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;194
+Brunnenhof City Center;2023-06-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-06-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-06-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-06-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-06-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;318
+Brunnenhof City Center;2023-06-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;337
+Brunnenhof City Center;2023-06-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;352
+Brunnenhof City Center;2023-06-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;374
+Brunnenhof City Center;2023-06-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;335
+Brunnenhof City Center;2023-06-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;355
+Brunnenhof City Center;2023-06-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;371
+Brunnenhof City Center;2023-06-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;394
+Brunnenhof City Center;2023-06-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;308
+Brunnenhof City Center;2023-06-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;329
+Brunnenhof City Center;2023-06-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;343
+Brunnenhof City Center;2023-06-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;366
+Brunnenhof City Center;2023-06-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;335
+Brunnenhof City Center;2023-06-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;355
+Brunnenhof City Center;2023-06-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;371
+Brunnenhof City Center;2023-06-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;394
+Brunnenhof City Center;2023-06-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;191
+Brunnenhof City Center;2023-06-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;211
+Brunnenhof City Center;2023-06-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;212
+Brunnenhof City Center;2023-06-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;234
+Brunnenhof City Center;2023-06-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;176
+Brunnenhof City Center;2023-06-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-06-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-06-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;218
+Brunnenhof City Center;2023-06-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;191
+Brunnenhof City Center;2023-06-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;211
+Brunnenhof City Center;2023-06-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;212
+Brunnenhof City Center;2023-06-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;234
+Brunnenhof City Center;2023-06-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;318
+Brunnenhof City Center;2023-06-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;337
+Brunnenhof City Center;2023-06-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-06-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-06-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-06-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-06-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-06-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-06-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-06-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-06-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;154
+Brunnenhof City Center;2023-06-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;171
+Brunnenhof City Center;2023-06-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;175
+Brunnenhof City Center;2023-06-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;194
+Brunnenhof City Center;2023-06-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-06-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-06-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-06-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-06-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;267
+Brunnenhof City Center;2023-06-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;288
+Brunnenhof City Center;2023-06-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;297
+Brunnenhof City Center;2023-06-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;320
+Brunnenhof City Center;2023-06-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;146
+Brunnenhof City Center;2023-06-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;162
+Brunnenhof City Center;2023-06-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;166
+Brunnenhof City Center;2023-06-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;184
+Brunnenhof City Center;2023-06-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-06-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-06-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;178
+Brunnenhof City Center;2023-06-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-06-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-06-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-06-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-06-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-06-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;176
+Brunnenhof City Center;2023-06-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-06-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-06-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;218
+Brunnenhof City Center;2023-06-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;191
+Brunnenhof City Center;2023-06-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;211
+Brunnenhof City Center;2023-06-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;212
+Brunnenhof City Center;2023-06-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;234
+Brunnenhof City Center;2023-06-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;267
+Brunnenhof City Center;2023-06-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;288
+Brunnenhof City Center;2023-06-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;254
+Brunnenhof City Center;2023-06-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;274
+Brunnenhof City Center;2023-06-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;262
+Brunnenhof City Center;2023-06-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;282
+Brunnenhof City Center;2023-06-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;254
+Brunnenhof City Center;2023-06-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;274
+Brunnenhof City Center;2023-07-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-07-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-07-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-07-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-07-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-07-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-07-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-07-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-07-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;142
+Brunnenhof City Center;2023-07-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;157
+Brunnenhof City Center;2023-07-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;161
+Brunnenhof City Center;2023-07-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;178
+Brunnenhof City Center;2023-07-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-07-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;170
+Brunnenhof City Center;2023-07-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;172
+Brunnenhof City Center;2023-07-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;191
+Brunnenhof City Center;2023-07-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;176
+Brunnenhof City Center;2023-07-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-07-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-07-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;218
+Brunnenhof City Center;2023-07-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;191
+Brunnenhof City Center;2023-07-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;211
+Brunnenhof City Center;2023-07-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;212
+Brunnenhof City Center;2023-07-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;234
+Brunnenhof City Center;2023-07-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;146
+Brunnenhof City Center;2023-07-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;162
+Brunnenhof City Center;2023-07-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;166
+Brunnenhof City Center;2023-07-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;184
+Brunnenhof City Center;2023-07-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-07-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-07-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;178
+Brunnenhof City Center;2023-07-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-07-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;185
+Brunnenhof City Center;2023-07-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-07-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-07-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;229
+Brunnenhof City Center;2023-07-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;201
+Brunnenhof City Center;2023-07-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;222
+Brunnenhof City Center;2023-07-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;223
+Brunnenhof City Center;2023-07-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;246
+Brunnenhof City Center;2023-07-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;154
+Brunnenhof City Center;2023-07-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;171
+Brunnenhof City Center;2023-07-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;175
+Brunnenhof City Center;2023-07-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;194
+Brunnenhof City Center;2023-07-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-07-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-07-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-07-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-07-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;123
+Brunnenhof City Center;2023-07-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-07-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-07-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;160
+Brunnenhof City Center;2023-07-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-07-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-07-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-07-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-07-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-07-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-07-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-07-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-07-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;124
+Brunnenhof City Center;2023-07-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;138
+Brunnenhof City Center;2023-07-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;143
+Brunnenhof City Center;2023-07-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-07-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-07-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-07-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-07-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-07-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;123
+Brunnenhof City Center;2023-07-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-07-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-07-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;160
+Brunnenhof City Center;2023-07-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-07-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-07-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-07-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-07-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-07-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-07-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-07-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-07-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-07-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-07-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-07-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-07-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-07-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-07-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-07-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-07-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;123
+Brunnenhof City Center;2023-07-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-07-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-07-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;160
+Brunnenhof City Center;2023-07-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-07-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-07-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-07-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-07-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;201
+Brunnenhof City Center;2023-07-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;222
+Brunnenhof City Center;2023-07-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;223
+Brunnenhof City Center;2023-07-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;246
+Brunnenhof City Center;2023-07-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-07-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-07-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-07-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-07-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-07-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-07-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-07-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-07-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-07-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-07-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-07-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-07-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-07-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-07-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-07-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-07-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-07-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-07-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-07-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-07-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;128
+Brunnenhof City Center;2023-07-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;142
+Brunnenhof City Center;2023-07-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-07-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;164
+Brunnenhof City Center;2023-07-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-07-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-07-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-07-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-08-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;163
+Brunnenhof City Center;2023-08-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;182
+Brunnenhof City Center;2023-08-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-08-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-08-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-08-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;163
+Brunnenhof City Center;2023-08-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-08-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;134
+Brunnenhof City Center;2023-08-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;134
+Brunnenhof City Center;2023-08-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-08-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-08-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-08-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;163
+Brunnenhof City Center;2023-08-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-08-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-08-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;124
+Brunnenhof City Center;2023-08-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-08-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-08-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-08-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-08-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;134
+Brunnenhof City Center;2023-08-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-08-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;124
+Brunnenhof City Center;2023-08-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-08-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-08-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-08-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-08-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;134
+Brunnenhof City Center;2023-08-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;134
+Brunnenhof City Center;2023-08-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;166
+Brunnenhof City Center;2023-08-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;176
+Brunnenhof City Center;2023-08-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;184
+Brunnenhof City Center;2023-08-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-08-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-08-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-08-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;178
+Brunnenhof City Center;2023-08-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;188
+Brunnenhof City Center;2023-08-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-08-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;154
+Brunnenhof City Center;2023-08-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;171
+Brunnenhof City Center;2023-08-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;175
+Brunnenhof City Center;2023-08-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;194
+Brunnenhof City Center;2023-08-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-08-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-08-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-08-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-08-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;166
+Brunnenhof City Center;2023-08-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;184
+Brunnenhof City Center;2023-08-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-08-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-08-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;178
+Brunnenhof City Center;2023-08-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-08-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;166
+Brunnenhof City Center;2023-08-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;176
+Brunnenhof City Center;2023-08-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;184
+Brunnenhof City Center;2023-08-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-08-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-08-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-08-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;178
+Brunnenhof City Center;2023-08-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;188
+Brunnenhof City Center;2023-08-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-08-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-08-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;124
+Brunnenhof City Center;2023-08-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-08-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-08-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-08-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-08-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;134
+Brunnenhof City Center;2023-08-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-08-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;124
+Brunnenhof City Center;2023-08-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-08-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-08-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-08-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-08-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;134
+Brunnenhof City Center;2023-08-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-08-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;124
+Brunnenhof City Center;2023-08-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-08-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-08-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-08-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-08-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;134
+Brunnenhof City Center;2023-08-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-08-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;124
+Brunnenhof City Center;2023-08-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-08-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-08-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-08-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-08-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;134
+Brunnenhof City Center;2023-08-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;134
+Brunnenhof City Center;2023-08-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;123
+Brunnenhof City Center;2023-08-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-08-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-08-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-08-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-08-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;160
+Brunnenhof City Center;2023-08-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-08-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-08-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-08-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;163
+Brunnenhof City Center;2023-08-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-08-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-08-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;124
+Brunnenhof City Center;2023-08-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-08-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-08-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-08-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-08-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;134
+Brunnenhof City Center;2023-08-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-08-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;123
+Brunnenhof City Center;2023-08-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-08-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-08-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-08-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-08-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;160
+Brunnenhof City Center;2023-08-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-08-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-08-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-08-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;163
+Brunnenhof City Center;2023-08-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-08-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;113
+Brunnenhof City Center;2023-08-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;120
+Brunnenhof City Center;2023-08-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;133
+Brunnenhof City Center;2023-08-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;140
+Brunnenhof City Center;2023-08-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;147
+Brunnenhof City Center;2023-08-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;123
+Brunnenhof City Center;2023-08-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;130
+Brunnenhof City Center;2023-08-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;136
+Brunnenhof City Center;2023-08-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;142
+Brunnenhof City Center;2023-08-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;150
+Brunnenhof City Center;2023-08-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;158
+Brunnenhof City Center;2023-08-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-08-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;124
+Brunnenhof City Center;2023-08-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-08-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-08-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-08-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-08-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-08-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;134
+Brunnenhof City Center;2023-08-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-08-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-08-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;155
+Brunnenhof City Center;2023-08-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-09-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-09-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-09-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-09-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-09-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-09-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-09-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-09-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-09-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-09-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-09-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-09-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-09-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-09-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-09-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-09-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-09-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;123
+Brunnenhof City Center;2023-09-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-09-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-09-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;160
+Brunnenhof City Center;2023-09-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-09-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-09-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-09-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-09-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-09-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-09-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-09-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-09-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-09-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-09-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-09-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-09-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-09-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-09-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-09-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-09-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-09-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-09-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-09-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-09-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;359
+Brunnenhof City Center;2023-09-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;379
+Brunnenhof City Center;2023-09-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;389
+Brunnenhof City Center;2023-09-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;409
+Brunnenhof City Center;2023-09-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;390
+Brunnenhof City Center;2023-09-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;412
+Brunnenhof City Center;2023-09-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;423
+Brunnenhof City Center;2023-09-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;445
+Brunnenhof City Center;2023-09-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;390
+Brunnenhof City Center;2023-09-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;412
+Brunnenhof City Center;2023-09-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;423
+Brunnenhof City Center;2023-09-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;445
+Brunnenhof City Center;2023-09-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;445
+Brunnenhof City Center;2023-09-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;468
+Brunnenhof City Center;2023-09-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;326
+Brunnenhof City Center;2023-09-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;348
+Brunnenhof City Center;2023-09-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;352
+Brunnenhof City Center;2023-09-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;374
+Brunnenhof City Center;2023-09-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;352
+Brunnenhof City Center;2023-09-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;374
+Brunnenhof City Center;2023-09-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;432
+Brunnenhof City Center;2023-09-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;454
+Brunnenhof City Center;2023-09-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;445
+Brunnenhof City Center;2023-09-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;468
+Brunnenhof City Center;2023-09-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;445
+Brunnenhof City Center;2023-09-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;468
+Brunnenhof City Center;2023-10-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;411
+Brunnenhof City Center;2023-10-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;434
+Brunnenhof City Center;2023-10-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;445
+Brunnenhof City Center;2023-10-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;468
+Brunnenhof City Center;2023-10-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;326
+Brunnenhof City Center;2023-10-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;412
+Brunnenhof City Center;2023-10-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;352
+Brunnenhof City Center;2023-10-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;445
+Brunnenhof City Center;2023-10-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;343
+Brunnenhof City Center;2023-10-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;366
+Brunnenhof City Center;2023-10-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;162
+Brunnenhof City Center;2023-10-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;184
+Brunnenhof City Center;2023-10-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-10-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-10-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;191
+Brunnenhof City Center;2023-10-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;211
+Brunnenhof City Center;2023-10-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;212
+Brunnenhof City Center;2023-10-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;234
+Brunnenhof City Center;2023-10-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;191
+Brunnenhof City Center;2023-10-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;211
+Brunnenhof City Center;2023-10-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;212
+Brunnenhof City Center;2023-10-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;234
+Brunnenhof City Center;2023-10-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;201
+Brunnenhof City Center;2023-10-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;222
+Brunnenhof City Center;2023-10-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;223
+Brunnenhof City Center;2023-10-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;246
+Brunnenhof City Center;2023-10-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;176
+Brunnenhof City Center;2023-10-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-10-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-10-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;218
+Brunnenhof City Center;2023-10-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;191
+Brunnenhof City Center;2023-10-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;211
+Brunnenhof City Center;2023-10-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;212
+Brunnenhof City Center;2023-10-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;234
+Brunnenhof City Center;2023-10-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;89
+Brunnenhof City Center;2023-10-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;100
+Brunnenhof City Center;2023-10-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;109
+Brunnenhof City Center;2023-10-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;122
+Brunnenhof City Center;2023-10-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;101
+Brunnenhof City Center;2023-10-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;111
+Brunnenhof City Center;2023-10-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;121
+Brunnenhof City Center;2023-10-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-10-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-10-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-10-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;178
+Brunnenhof City Center;2023-10-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-10-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;154
+Brunnenhof City Center;2023-10-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;171
+Brunnenhof City Center;2023-10-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;175
+Brunnenhof City Center;2023-10-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;194
+Brunnenhof City Center;2023-10-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-10-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-10-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-10-17;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-10-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;146
+Brunnenhof City Center;2023-10-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;162
+Brunnenhof City Center;2023-10-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;166
+Brunnenhof City Center;2023-10-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;184
+Brunnenhof City Center;2023-10-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-10-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-10-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;178
+Brunnenhof City Center;2023-10-18;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-10-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;146
+Brunnenhof City Center;2023-10-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;162
+Brunnenhof City Center;2023-10-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;166
+Brunnenhof City Center;2023-10-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;184
+Brunnenhof City Center;2023-10-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-10-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-10-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;178
+Brunnenhof City Center;2023-10-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-10-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;185
+Brunnenhof City Center;2023-10-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-10-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-10-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;229
+Brunnenhof City Center;2023-10-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;201
+Brunnenhof City Center;2023-10-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;222
+Brunnenhof City Center;2023-10-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;223
+Brunnenhof City Center;2023-10-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;246
+Brunnenhof City Center;2023-10-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;176
+Brunnenhof City Center;2023-10-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-10-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-10-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;218
+Brunnenhof City Center;2023-10-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;191
+Brunnenhof City Center;2023-10-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;211
+Brunnenhof City Center;2023-10-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;212
+Brunnenhof City Center;2023-10-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;234
+Brunnenhof City Center;2023-10-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;176
+Brunnenhof City Center;2023-10-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-10-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-10-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;218
+Brunnenhof City Center;2023-10-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;191
+Brunnenhof City Center;2023-10-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;211
+Brunnenhof City Center;2023-10-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;212
+Brunnenhof City Center;2023-10-24;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;234
+Brunnenhof City Center;2023-10-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;185
+Brunnenhof City Center;2023-10-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-10-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-10-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;229
+Brunnenhof City Center;2023-10-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;201
+Brunnenhof City Center;2023-10-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;222
+Brunnenhof City Center;2023-10-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;223
+Brunnenhof City Center;2023-10-25;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;246
+Brunnenhof City Center;2023-10-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;106
+Brunnenhof City Center;2023-10-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;117
+Brunnenhof City Center;2023-10-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;127
+Brunnenhof City Center;2023-10-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;140
+Brunnenhof City Center;2023-10-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;89
+Brunnenhof City Center;2023-10-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;100
+Brunnenhof City Center;2023-10-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;109
+Brunnenhof City Center;2023-10-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;122
+Brunnenhof City Center;2023-10-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;101
+Brunnenhof City Center;2023-10-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;111
+Brunnenhof City Center;2023-10-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;121
+Brunnenhof City Center;2023-10-29;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-10-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;94
+Brunnenhof City Center;2023-10-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;105
+Brunnenhof City Center;2023-10-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;115
+Brunnenhof City Center;2023-10-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;128
+Brunnenhof City Center;2023-10-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;106
+Brunnenhof City Center;2023-10-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;117
+Brunnenhof City Center;2023-10-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;127
+Brunnenhof City Center;2023-10-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;140
+Brunnenhof City Center;2023-10-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;89
+Brunnenhof City Center;2023-10-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;100
+Brunnenhof City Center;2023-10-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;109
+Brunnenhof City Center;2023-10-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;122
+Brunnenhof City Center;2023-10-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;101
+Brunnenhof City Center;2023-10-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;111
+Brunnenhof City Center;2023-10-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;121
+Brunnenhof City Center;2023-10-31;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-11-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;86
+Brunnenhof City Center;2023-11-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;95
+Brunnenhof City Center;2023-11-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;105
+Brunnenhof City Center;2023-11-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-11-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;96
+Brunnenhof City Center;2023-11-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;107
+Brunnenhof City Center;2023-11-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;116
+Brunnenhof City Center;2023-11-01;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;129
+Brunnenhof City Center;2023-11-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;113
+Brunnenhof City Center;2023-11-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;126
+Brunnenhof City Center;2023-11-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;132
+Brunnenhof City Center;2023-11-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;147
+Brunnenhof City Center;2023-11-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;122
+Brunnenhof City Center;2023-11-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;136
+Brunnenhof City Center;2023-11-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;142
+Brunnenhof City Center;2023-11-02;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;157
+Brunnenhof City Center;2023-11-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;90
+Brunnenhof City Center;2023-11-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;100
+Brunnenhof City Center;2023-11-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;110
+Brunnenhof City Center;2023-11-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;123
+Brunnenhof City Center;2023-11-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;101
+Brunnenhof City Center;2023-11-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;113
+Brunnenhof City Center;2023-11-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;122
+Brunnenhof City Center;2023-11-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;136
+Brunnenhof City Center;2023-11-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;86
+Brunnenhof City Center;2023-11-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;95
+Brunnenhof City Center;2023-11-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;105
+Brunnenhof City Center;2023-11-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-11-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;96
+Brunnenhof City Center;2023-11-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;107
+Brunnenhof City Center;2023-11-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;116
+Brunnenhof City Center;2023-11-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;129
+Brunnenhof City Center;2023-11-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;106
+Brunnenhof City Center;2023-11-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;117
+Brunnenhof City Center;2023-11-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;127
+Brunnenhof City Center;2023-11-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;140
+Brunnenhof City Center;2023-11-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;94
+Brunnenhof City Center;2023-11-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;105
+Brunnenhof City Center;2023-11-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;115
+Brunnenhof City Center;2023-11-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;128
+Brunnenhof City Center;2023-11-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;106
+Brunnenhof City Center;2023-11-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;117
+Brunnenhof City Center;2023-11-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;127
+Brunnenhof City Center;2023-11-08;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;140
+Brunnenhof City Center;2023-11-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;89
+Brunnenhof City Center;2023-11-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;100
+Brunnenhof City Center;2023-11-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;109
+Brunnenhof City Center;2023-11-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;122
+Brunnenhof City Center;2023-11-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;101
+Brunnenhof City Center;2023-11-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;111
+Brunnenhof City Center;2023-11-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;121
+Brunnenhof City Center;2023-11-09;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-11-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;185
+Brunnenhof City Center;2023-11-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-11-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-11-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;229
+Brunnenhof City Center;2023-11-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;201
+Brunnenhof City Center;2023-11-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;222
+Brunnenhof City Center;2023-11-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;223
+Brunnenhof City Center;2023-11-13;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;246
+Brunnenhof City Center;2023-11-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;176
+Brunnenhof City Center;2023-11-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-11-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;196
+Brunnenhof City Center;2023-11-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;218
+Brunnenhof City Center;2023-11-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;191
+Brunnenhof City Center;2023-11-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;211
+Brunnenhof City Center;2023-11-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;212
+Brunnenhof City Center;2023-11-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;234
+Brunnenhof City Center;2023-11-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;185
+Brunnenhof City Center;2023-11-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-11-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-11-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;229
+Brunnenhof City Center;2023-11-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;201
+Brunnenhof City Center;2023-11-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;222
+Brunnenhof City Center;2023-11-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;223
+Brunnenhof City Center;2023-11-15;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;246
+Brunnenhof City Center;2023-11-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;185
+Brunnenhof City Center;2023-11-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-11-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-11-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;229
+Brunnenhof City Center;2023-11-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;201
+Brunnenhof City Center;2023-11-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;222
+Brunnenhof City Center;2023-11-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;223
+Brunnenhof City Center;2023-11-16;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;246
+Brunnenhof City Center;2023-11-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;185
+Brunnenhof City Center;2023-11-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-11-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-11-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;229
+Brunnenhof City Center;2023-11-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;201
+Brunnenhof City Center;2023-11-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;222
+Brunnenhof City Center;2023-11-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;223
+Brunnenhof City Center;2023-11-19;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;246
+Brunnenhof City Center;2023-11-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;185
+Brunnenhof City Center;2023-11-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-11-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;206
+Brunnenhof City Center;2023-11-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;229
+Brunnenhof City Center;2023-11-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;201
+Brunnenhof City Center;2023-11-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;222
+Brunnenhof City Center;2023-11-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;223
+Brunnenhof City Center;2023-11-20;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;246
+Brunnenhof City Center;2023-11-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;86
+Brunnenhof City Center;2023-11-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;95
+Brunnenhof City Center;2023-11-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;105
+Brunnenhof City Center;2023-11-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-11-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;96
+Brunnenhof City Center;2023-11-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;107
+Brunnenhof City Center;2023-11-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;116
+Brunnenhof City Center;2023-11-21;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;129
+Brunnenhof City Center;2023-11-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;86
+Brunnenhof City Center;2023-11-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;95
+Brunnenhof City Center;2023-11-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;105
+Brunnenhof City Center;2023-11-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-11-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;96
+Brunnenhof City Center;2023-11-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;107
+Brunnenhof City Center;2023-11-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;116
+Brunnenhof City Center;2023-11-22;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;129
+Brunnenhof City Center;2023-11-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;86
+Brunnenhof City Center;2023-11-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;95
+Brunnenhof City Center;2023-11-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;105
+Brunnenhof City Center;2023-11-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-11-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;96
+Brunnenhof City Center;2023-11-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;107
+Brunnenhof City Center;2023-11-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;116
+Brunnenhof City Center;2023-11-23;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;129
+Brunnenhof City Center;2023-11-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;154
+Brunnenhof City Center;2023-11-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;171
+Brunnenhof City Center;2023-11-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;175
+Brunnenhof City Center;2023-11-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;194
+Brunnenhof City Center;2023-11-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-11-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-11-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-11-26;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-11-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;154
+Brunnenhof City Center;2023-11-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;171
+Brunnenhof City Center;2023-11-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;175
+Brunnenhof City Center;2023-11-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;194
+Brunnenhof City Center;2023-11-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-11-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-11-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-11-27;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-11-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;146
+Brunnenhof City Center;2023-11-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;162
+Brunnenhof City Center;2023-11-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;166
+Brunnenhof City Center;2023-11-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;184
+Brunnenhof City Center;2023-11-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;159
+Brunnenhof City Center;2023-11-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;176
+Brunnenhof City Center;2023-11-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;178
+Brunnenhof City Center;2023-11-28;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;198
+Brunnenhof City Center;2023-11-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;154
+Brunnenhof City Center;2023-11-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;171
+Brunnenhof City Center;2023-11-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;175
+Brunnenhof City Center;2023-11-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;194
+Brunnenhof City Center;2023-11-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;167
+Brunnenhof City Center;2023-11-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;185
+Brunnenhof City Center;2023-11-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;187
+Brunnenhof City Center;2023-11-30;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;208
+Brunnenhof City Center;2023-12-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;123
+Brunnenhof City Center;2023-12-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-12-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-12-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;160
+Brunnenhof City Center;2023-12-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-12-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-12-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-12-03;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-12-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;123
+Brunnenhof City Center;2023-12-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-12-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-12-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;160
+Brunnenhof City Center;2023-12-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-12-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-12-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-12-04;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-12-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-12-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-12-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-12-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-12-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-12-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-12-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-12-05;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-12-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-12-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-12-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-12-06;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-12-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-12-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-12-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-12-07;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-12-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;123
+Brunnenhof City Center;2023-12-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-12-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;144
+Brunnenhof City Center;2023-12-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;160
+Brunnenhof City Center;2023-12-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;133
+Brunnenhof City Center;2023-12-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;148
+Brunnenhof City Center;2023-12-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;154
+Brunnenhof City Center;2023-12-10;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;171
+Brunnenhof City Center;2023-12-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-12-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-12-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-12-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-12-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-12-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-12-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-12-11;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-12-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;117
+Brunnenhof City Center;2023-12-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;130
+Brunnenhof City Center;2023-12-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;137
+Brunnenhof City Center;2023-12-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Großes Doppelzimmer;2;152
+Brunnenhof City Center;2023-12-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-12-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-12-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-12-12;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
+Brunnenhof City Center;2023-12-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;126
+Brunnenhof City Center;2023-12-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;141
+Brunnenhof City Center;2023-12-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;146
+Brunnenhof City Center;2023-12-14;2;0;1;Schillerstrasse 36, Ludwigsvorstadt, 80336 München, Deutschland;8,1;Doppelzimmer;2;162
