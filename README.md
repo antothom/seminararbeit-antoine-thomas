@@ -10,7 +10,7 @@ To apply the price optimization model of Leong and Lee (2020) to the Munich hote
 **Data collection of hotel room rates:**
 
 Hotel room rates were scraped with a web Scraper programmed in python. For a secure scraping process, the web scraping API of scrapingdog.com was used. An API key for its use is not available in the script.\
-The python script can be found in the folder `hotel_room_rates`.
+The python `booking_scraper.py` script can be found in the folder `hotel_room_rates`.
 
 **Analysis of hotel room rates, the munich hotel market performance and price-demand relationships:**
 
