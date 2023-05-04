@@ -6,16 +6,16 @@ library(ggpubr)
 
 
 # Import of hotel room rates
-hotel_bb <- read_csv2(file = "B&B_Hotel_München-Hbf.csv")
-hotel_bold <- read_csv2(file = "Bold_Hotel_München.csv")
-hotel_brunnenhof <- read_csv2(file = "Brunnenhof_City_Center.csv")
-hotel_centro_mondial <- read_csv2(file = "Centro_Hotel_Mondial.csv")
-hotel_demas <- read_csv2(file = "Hotel_Demas_München.csv")
-hotel_gio <- read_csv2(file = "Hotel_GIO.csv")
-hotel_mirabell <- read_csv2(file = "Hotel_Mirabell.csv")
-hotel_city_center <- read_csv2(file = "Hotel_München_City_Center.csv")
-hotel_munchen_city <- read_csv2(file = "Hotel_Munich_City.csv")
-hotel_relexa <- read_csv2(file = "relexa_hotel_München.csv")
+hotel_bb <- read_csv2(file = "hotel_room_rates/B&B_Hotel_München-Hbf.csv")
+hotel_bold <- read_csv2(file = "hotel_room_rates/Bold_Hotel_München.csv")
+hotel_brunnenhof <- read_csv2(file = "hotel_room_rates/Brunnenhof_City_Center.csv")
+hotel_centro_mondial <- read_csv2(file = "hotel_room_rates/Centro_Hotel_Mondial.csv")
+hotel_demas <- read_csv2(file = "hotel_room_rates/Hotel_Demas_München.csv")
+hotel_gio <- read_csv2(file = "hotel_room_rates/Hotel_GIO.csv")
+hotel_mirabell <- read_csv2(file = "hotel_room_rates/Hotel_Mirabell.csv")
+hotel_city_center <- read_csv2(file = "hotel_room_rates/Hotel_München_City_Center.csv")
+hotel_munchen_city <- read_csv2(file = "hotel_room_rates/Hotel_Munich_City.csv")
+hotel_relexa <- read_csv2(file = "hotel_room_rates/relexa_hotel_München.csv")
 
 # Filter for simple double bedrooms and keep the cheapest possible price per day
 hotel_bb_clean <- hotel_bb %>%
@@ -240,7 +240,7 @@ avg_room_rates_no_event %>%
 ## Hotel performance data in Munich (data source: Colliers International Deutschland GmbH)
 
 # Import of hotel performance data
-hotel_performance_muc <- read_csv2("munich_arr_revpar_occ.csv") %>% 
+hotel_performance_muc <- read_csv2("data_price_demand_rel/munich_arr_revpar_occ.csv") %>% 
   mutate(`OCC (%)` = `OCC (%)`/100,
          Year = as.factor(Year)) # Converting number formats and data types to vizualisable 
 
@@ -292,7 +292,7 @@ kable(avg_occ_no_event, col.names = "avg_adj_occ", caption = "Average adjusted o
 ## Data on "price-demand relationship"/"price elasticity of demand" (data source: Enz & Canina (2010))
 
 # Import of data on RevPAR and occupancy differences 
-revpar_and_occupancy <- read_csv2(file= "revpar_and_occupancy.csv") %>%
+revpar_and_occupancy <- read_csv2(file= "data_price_demand_rel/revpar_and_occupancy.csv") %>%
   gather(key = "kpi", value = "rel_change", 2:3) %>%
   mutate(ADR = as.numeric(ADR)/100,
          rel_change = as.numeric(rel_change)/100)
